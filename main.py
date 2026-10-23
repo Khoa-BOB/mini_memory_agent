@@ -11,12 +11,6 @@ def main():
     agent = Agent(client)
     # mem_manager = MemoryManager()
 
-    SYSTEM_PROMPT = """
-    You are a friendly assistant.
-    Give a short and clear answers.
-    Use previous conversation context when relevant.
-    """
-
     chat_history = []
     # Create an agent loop
     while(True):
